@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font links -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Table</h1>
+      <hr>
+      <div class="table mt-5 table-responsive ">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr class="table-success">
+              <th class=>#</th>
+              <th>Name</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-danger">
+              <td>1</td>
+              <td>Farah</td>
+              <td>Farah@gmail.com</td>
+            </tr>
+            <tr class="table-primary">
+              <td>2</td>
+              <td>Suva</td>
+              <td>Suva@gmail.com</td>
+            </tr>
+            <tr class="table-warning">
+            <td>3</td>
+            <td>Sadi</td>
+            <td>Sadi@gmail.com</td>
+            </tr>
+            <tr class="table-secondary">
+              <td>4</td>
+              <td>Sabit</td>
+              <td>Sabit@gmail.com</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    <br> 
+    <br>
+      <h1>Form</h1>
+      <hr>
+      <div class="form">
+      <form class="form">
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control firstName " id="firstName" placeholder="Enter your first name">
+        </div>
+        <div class="mb-3">
+          <label for="lastName" class="form-label lastName">Last Name</label>
+          <input type="text" class="form-control lastName " id="lastName" placeholder="Enter your last name">
+        </div>
+        <div class="mb-3">
+          <label for="email1" class="form-label">Email address</label>
+          <input type="email" class="form-control email1 " id="email1" name="email1" placeholder="Enter your email address">
+        </div>
+        <div class="mb-3">
+          <label for="password1" class="form-label">Password</label>
+          <input type="password1" class="form-control password1" id="password1" name="password1" placeholder="Enter your Password" >
+        </div>
+        <div class="mb-3">
+          <label for="age" class="form-label age">Age</label>
+          <input type="number" class="form-control age " id="age" value="30" placeholder="Enter your age">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label message">Message</label>
+          <textarea name="message" id="message"  rows="3"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input check1" id="check1" name="check1">
+          <label class="form-check-label" for="check1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      
+      </form>
+    </div>
+    <br><br>
+
+    <h1>Form grid</h1>
+    <hr>
+    <div class="form">
+    <form class="row g-3">
+      <div class="col-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control firstName " id="firstName" placeholder="Enter your first name">
+      </div>
+      <div class="col-6">
+        <label for="lastName" class="form-label lastName">Last Name</label>
+        <input type="text" class="form-control lastName " id="lastName" placeholder="Enter your last name">
+      </div>
+      <div class="col-12">
+        <label for="email1" class="form-label">Email address</label>
+        <input type="email" class="form-control email1 " id="email1" name="email1" placeholder="Enter your email address">
+      </div>
+      <div class="col-6">
+        <label for="password1" class="form-label">Password</label>
+        <input type="password1" class="form-control password1" id="password1" name="password1" placeholder="Enter your Password" >
+      </div>
+      <div class="col-6">
+        <label for="age" class="form-label age">Age</label>
+        <input type="number" class="form-control age " id="age" value="30" placeholder="Enter your age">
+      </div>
+      <div class="col-12 form-check">
+        <input type="checkbox" class="form-check-input check1" id="check1" name="check1">
+        <label class="form-check-label" for="check1">Check me out</label>
+      </div>
+      <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    
+    </form>
+  </div>
+
+
+      
+    </div>
+
+
+    <!--JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
